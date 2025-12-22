@@ -1,0 +1,38 @@
+#btn_container{
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+#btn_container button{
+    border: none;
+    outline: none;
+    margin-right: 2px;
+    font-size:x-large;
+    cursor: pointer;
+    padding: 20px;
+
+}
+#btn_container button:nth-child(1){
+    background-color: green;
+    color:white;
+}
+
+#btn_container button:nth-child(2){
+    background-color: blue;
+    color:white;
+}
+#btn_container button:nth-child(3){
+    background-color: red;
+    color:white;
+}#btn_container button:nth-child(4){
+    background-color: yellow;
+    
+    color:rgb(6, 5, 5);
+}#btn_container button:nth-child(5){
+    background-color: black;
+    color:white;
+}
+/* .items{
+    background: #000;
+} */
