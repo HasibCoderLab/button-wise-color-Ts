@@ -17,5 +17,10 @@ npx tsc --init
 ### 4️⃣ Compile & run
 ```
 npx tsc --watch
+```
 
+### Create vite config file
+
+```
+touch vite.config.ts
 ```
