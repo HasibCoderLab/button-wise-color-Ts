@@ -46,20 +46,24 @@ This project focuses on **clean logic, proper DOM typing, and TypeScript fundame
 
 ## 📁 Project Structure
 
-```
-project/
+Button-wise-color-TypeScript/
 │
 ├── src/
-│ └── script.ts
-│
+│   ├── script.ts            # TypeScript 
+│   └── assets/
+│       └── screenshot1.png   # preview image for README
+│       └── screenshot2.png 
+│       └── screenshot3.png                                       
 ├── dist/
-│ └── script.js
+│   └── script.js            # compiled JS
 │
-├── index.html
-├── style.css
-├── tsconfig.json
-└── README.md
-```
+├── index.html               # main HTML file
+├── style.css                # styling
+├── tsconfig.json            # TypeScript config
+├── package.json             # npm project config
+├── vite.config.ts           # optional, if using Vite
+└── README.md                # project README with preview + link
+
 
 
 ## 1️⃣ npm init
@@ -85,6 +89,17 @@ npx tsc --watch
 ```
 touch vite.config.ts
 ```
+
+[Link text](https://example.com)
+
+![Preview](./src/assets/screenshot1.png)
+![Preview](./src/assets/screenshot2.png)
+![Preview](./src/assets/screenshot3.png)
+
+
+
+[![Preview](./src/assets/screenshot3.png)](https://yourwebsite.com)
+
 
 🎯 Why This Project
 
