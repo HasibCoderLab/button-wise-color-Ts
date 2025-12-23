@@ -54,7 +54,8 @@ Button-wise-color-TypeScript/
 │   └── assets/
 │       └── screenshot1.png   # preview image for README
 │       └── screenshot2.png 
-│       └── screenshot3.png                                       
+│       └── screenshot3.png     
+│       └── screenshot4.png                                   
 ├── dist/
 │   └── script.js            # compiled JS
 │
@@ -62,7 +63,7 @@ Button-wise-color-TypeScript/
 ├── style.css                # styling
 ├── tsconfig.json            # TypeScript config
 ├── package.json             # npm project config
-├── vite.config.ts           # optional, if using Vite
+├── vite.config.ts           # optional,
 └── README.md                # project README with preview + link
 ```
 
@@ -96,6 +97,8 @@ touch vite.config.ts
 ![Preview](./src/assets/screenshot1.png)
 ![Preview](./src/assets/screenshot2.png)
 ![Preview](./src/assets/screenshot3.png)
+![Preview](./src/assets/screenshot4.png)
+
 
 
 
