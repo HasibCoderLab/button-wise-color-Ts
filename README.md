@@ -46,6 +46,7 @@ This project focuses on **clean logic, proper DOM typing, and TypeScript fundame
 
 ## 📁 Project Structure
 
+```
 Button-wise-color-TypeScript/
 │
 ├── src/
@@ -63,7 +64,7 @@ Button-wise-color-TypeScript/
 ├── package.json             # npm project config
 ├── vite.config.ts           # optional, if using Vite
 └── README.md                # project README with preview + link
-
+```
 
 
 ## 1️⃣ npm init
