@@ -19,8 +19,8 @@ btn_container.addEventListener('click', (event: MouseEvent) => {
 
     const fixedColors: string[] = ['green', 'blue', 'red', 'yellow'];
 
-    if (fixedColors.indexOf(color) !== -1) {
-        console.log((fixedColors.indexOf(color)));
+    if (fixedColors.includes(color)) {
+        console.log((fixedColors.includes(color)));
 
         document.body.style.backgroundColor = color;
     } else {
